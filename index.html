@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .fullbody {
+        text-align: center;
+        position: relative;
+        top: 100px;
+        background-color: rgb(161, 161, 189);
+        padding: 5px;
+      }
+      body {
+        padding: 60px 230px;
+      }
+      button {
+        background-color: black;
+        color: aliceblue;
+      }
+      input {
+        margin: 5px;
+        width: 150px;
+        height: 20px;
+        background-color: darkslategray;
+        text-decoration-color: black;
+        border-radius: 2px solid while;
+      }
+      #num1 {
+        margin-left: 5px;
+      }
+      .la {
+        font-size: 20px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fullbody">
+      <h1>calculater</h1>
+      <label for="" class="la">Number 1</label>
+      <input type="" name="number" id="num1" />
+      <br /><br />
+      <label for="" class="la">Number 2:</label>
+      <input type="" name="number" id="num2" />
+      <div class="btn">
+        <button class="add" onclick="add()">+</button>
+        <button class="substraction" onclick="substraction()">-</button>
+        <button class="divide" onclick="divide()">/</button>
+        <button class="multiply" onclick="multiply()">*</button>
+        <br />
+        <label for="">result </label>
+        <span id="result"></span>
+        <script src="/script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
